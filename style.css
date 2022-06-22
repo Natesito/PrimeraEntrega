@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hContainer {
+    background-color: rgba(27, 25, 25, 0.849);
+}
+
+.nContainer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+
+.nContainer ul li a:hover {
+    background-color: rgb(151, 146, 146);
+    transition: all 0.6s;
+}
+
+.nContainer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.mContainer {
+    height: 919px;
+    background-color: rgb(119, 119, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    background-color: aliceblue;
+    display: flex;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Container a {
+    color: blue;
+    padding: 10px;
+}
+
+
+
