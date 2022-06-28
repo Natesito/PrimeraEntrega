@@ -20,6 +20,7 @@ class cuenta {
     }
 }
 
+function crear(){
 let crear = prompt('¿Quiere crear una cuenta?\nSi \nNo')
 while (crear == 'si') {
     const titular = prompt('Ingrese Nombre del titular');
@@ -27,7 +28,10 @@ while (crear == 'si') {
     const contraseña = prompt('Ingrese uan contraseña');
     const cuentaNueva = new cuenta(titular, usuario, contraseña);
     NateNet.agregarCuentas(cuentaNueva)
+    alert('Cuenta creada con exito!')
     break;
 }
 
 console.log(NateNet.cuentas)
+
+}
